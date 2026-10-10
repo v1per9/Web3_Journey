@@ -1,3 +1,3 @@
 # Start
 
-Beginning from here.
+Start from here.
