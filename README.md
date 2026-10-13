@@ -44,7 +44,7 @@ Web3_Journey/
     └── W01 周记.md     ← 每周一记
 ```
 
-**图片**全部放在 `attachments/`，笔记里用 Obsidian 的嵌入语法（感叹号 + 双方括号）只写文件名即可，Obsidian 会按文件名在库内自动找到它。
+**图片**统一放在 `attachments/`，用**标准 Markdown 链接**引用：`![说明](attachments/文件名)`。这样 Obsidian 和 GitHub 都能正常显示。⚠️ 不要用 Obsidian 专有的 `![[...]]` —— GitHub 不识别，图片会显示不出来。
 
 ## 索引
 
