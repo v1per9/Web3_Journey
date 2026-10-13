@@ -1,0 +1,15 @@
+# ===== 换行符统一策略 =====
+# 所有文本文件：仓库里存 LF，检出到工作区也保持 LF（覆盖 core.autocrlf=true）
+* text=auto eol=lf
+
+# ===== 二进制文件：绝不参与换行转换 =====
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.ico binary
+*.webp binary
+*.pdf binary
+*.zip binary
+*.gz binary
