@@ -1,0 +1,19 @@
+# ===== Obsidian：本机状态，不提交 =====
+# 窗口布局 / 打开的文件 / 光标位置：每台机器不同，每次打开都会变，提交进来只会刷屏
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Obsidian 的本地回收站（删掉的笔记）
+.trash/
+
+# ===== 操作系统 / 编辑器杂物 =====
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+*.tmp
+*~
+*.log
+
+# 说明：图片放在 attachments/ 里，属于笔记正文的一部分，要提交，不要忽略。
